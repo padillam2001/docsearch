@@ -18,5 +18,9 @@ public class TestDocSearch {
     String expect = "Found 2 paths:\n./technical/biomed/ar615.txt\n./technical/plos/journal.pbio.0020150.txt";
     assertEquals(expect, h.handleRequest(rootPath));
 	}
+    @Test
+    public void test3() throws URISyntaxException, IOException {
+        
+    }
 }
 
